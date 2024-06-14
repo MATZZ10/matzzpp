@@ -28,7 +28,7 @@ const {
     getBuffer
 } = require(__path + '/lib/functions.js');
 const oxy = require(__path + '/lib/oxy.js');
-const { ChatGpt } = required(__path + '/lib/scrape.js')
+const { ChatGpt } = require(__path + '/lib/scrape.js')
 
 router.get('/cekapikey', async (req, res, next) => {
     var apikey = req.query.apikey
